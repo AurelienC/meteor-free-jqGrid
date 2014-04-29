@@ -13,7 +13,8 @@
 
   If you have a [Collection](http://docs.meteor.com/#collections) called `Clients` width `first`, `last` and `email` properties.
 
-  1. Create a template
+  1. Create a template:
+
   ```html
   <!-- table.html -->
   <template name="jqGridTemplate">
@@ -21,7 +22,8 @@
     <div id="pager"></div>
   </template>
   ```
-  1. Create created and rendered events
+  1. Add `created` and `rendered` events
+
   ```js
   // table.js
   Template.jqGridTemplate.created = function() {
