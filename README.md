@@ -1,6 +1,6 @@
-# jQgrid for meteor
+# jqGrid for meteor
 
-[jQgrid](http://www.trirand.com/) v4.6.0, is a complete Grid jQuery Plugin for tables.
+[jqGrid](http://www.trirand.com/) v4.6.0, is a complete Grid jQuery Plugin for tables.
 
 ## Install
 
