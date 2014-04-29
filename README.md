@@ -43,7 +43,7 @@
   Template.jqGridTemplate.rendered = function() {
     jQuery("#grid").jqGrid({
       datatype: 'local',
-      data: Regiones.find({}).fetch(),
+      data: Clients.find({}).fetch(),
       colNames: ['First Name', 'Last Name', 'E-mail'],
       colModel: [
         {name: 'first', index: 'first', searchoptions: {sopt: ['cn','nc','eq','bw','bn','ew','en']}},
