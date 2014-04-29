@@ -53,7 +53,7 @@
       rowNum: 10,
       rowList: [10, 20, 30, 40, 50],
       pager: '#pager',
-      sortname: 'nombre',
+      sortname: 'first',
       viewrecords: true,
       sortorder: 'desc',
       caption: 'Clients',
