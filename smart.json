@@ -1,0 +1,9 @@
+{
+  "name": "jqGrid",
+  "description": "jQuery Grid Plugin - jqGrid",
+  "homepage": "https://github.com/soncco/meteor-jqGrid",
+  "author": "Braulio Soncco (http://soncco.com)",
+  "version": "0.1.0",
+  "git": "https://github.com/soncco/meteor-jqGrid.git",
+  "packages": { }
+}
