@@ -28,12 +28,15 @@
   // table.js
   Template.jqGridTemplate.created = function() {
     var handle = Clients.find({}).observe({
+      // Add the recently created document to table.
       addedAt: function (doc, atIndex, before) {
         jQuery("#grid").jqGrid('addRowData', atIndex + 1, doc);
       },
+      // Update the document.
       changedAt: function(newDoc, oldDoc, atIndex) {
         jQuery("#grid").jqGrid('setRowData', atIndex, newDoc);
       },
+      // Remove the document.
       removedAt: function(oldDoc, atIndex) {
         jQuery("#grid").jqGrid('delRowData', atIndex, oldDoc);
       }
@@ -42,15 +45,15 @@
 
   Template.jqGridTemplate.rendered = function() {
     jQuery("#grid").jqGrid({
-      datatype: 'local',
-      data: Clients.find({}).fetch(),
+      datatype: 'local', // Datatype
+      data: Clients.find({}).fetch(), // JSON Object
       colNames: ['First Name', 'Last Name', 'E-mail'],
       colModel: [
         {name: 'first', index: 'first', searchoptions: {sopt: ['cn','nc','eq','bw','bn','ew','en']}},
         {name: 'last', index: 'last', searchoptions: {sopt: ['cn','nc','eq','bw','bn','ew','en']}},
         {name: 'email', index: 'email', searchoptions: {sopt: ['cn','nc','eq','bw','bn','ew','en']}}
       ],
-      rowNum: 10,
+      rowNum: 10, // Show 10 rows
       rowList: [10, 20, 30, 40, 50],
       pager: '#pager',
       sortname: 'first',
@@ -70,4 +73,10 @@
 ## Configuration and Demo
 
 You can play within rendered event and configure jqGrid, check the [jqGrid Demos](http://trirand.com/blog/jqgrid/jqgrid.html) for more configurations and Examples.
-  
+
+
+## Todo
+
+  1. Configuration for extra plugins.
+  1. Configuration for language.
+  1. Examples.
