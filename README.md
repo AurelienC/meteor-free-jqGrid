@@ -22,7 +22,7 @@
     <div id="pager"></div>
   </template>
   ```
-  1. Add `created` and `rendered` events
+  1. Add `created`, `rendered` and `destroyed` events
 
   ```js
   // table.js
