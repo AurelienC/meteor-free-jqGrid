@@ -68,6 +68,13 @@
     })
     .jqGrid('filterToolbar',{searchOperators : true, searchOnEnter: false});    
   };
+
+  Template.test.destroyed = function() {
+    jQuery(".ui-jqgrid").remove();
+    // Remove jqGrid. TODO: use GridDestroy() method.
+  };
+
+}
   ```
 
 ## Configuration and Demo
