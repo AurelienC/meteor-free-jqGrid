@@ -73,8 +73,6 @@
     jQuery(".ui-jqgrid").remove();
     // Remove jqGrid. TODO: use GridDestroy() method.
   };
-
-}
   ```
 
 ## Configuration and Demo
