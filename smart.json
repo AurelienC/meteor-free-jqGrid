@@ -1,10 +1,10 @@
 {
   "name": "jqGrid",
   "description": "jQuery Grid Plugin - jqGrid",
-  "homepage": "https://github.com/soncco/meteor-jqGrid",
-  "author": "Braulio Soncco (http://soncco.com)",
+  "homepage": "https://github.com/ramgo2/meteor-jqGrid",
+  "author": "Ramgopal",
   "version": "0.1.5",
-  "git": "https://github.com/soncco/meteor-jqGrid.git",
+  "git": "https://github.com/ramgo2/meteor-jqGrid.git",
   "packages": {
     "jquery-ui": {}
   }

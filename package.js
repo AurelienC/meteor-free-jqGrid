@@ -1,8 +1,13 @@
 Package.describe({
-  summary: "jQuery Grid Plugin - jqGrid"
+  summary: "jQuery Grid Plugin - jqGrid",
+  name: "ramgopal:jqgrid",
+  version: "0.1.5",
+  git: "https://github.com/ramgo2/meteor-jqGrid.git",
+  documentation: 'README.md'
 });
 
 Package.on_use(function (api) {
+  api.versionsFrom('1.1.0.2');
   api.use('jquery', 'client');
 
   var path = Npm.require('path');

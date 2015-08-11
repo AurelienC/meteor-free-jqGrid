@@ -2,10 +2,14 @@
 
 [jqGrid](http://www.trirand.com/) v4.6.0, is a complete Grid jQuery Plugin for tables.
 
+[soncco/meteor-jqGrid](https://github.com/soncco/meteor-jqGrid) is a spanish version of jqGrid for meteor.
+[lspellman/meteor-jqGrid](https://github.com/lspellman/meteor-jqGrid) is an english version of [soncco/meteor-jqGrid](https://github.com/soncco/meteor-jqGrid).
+lspellman/meteor-jqGrid package is not available on atmosphere.  I have just published it on atmosphere without making any changes.
+
+
 ## Install
 
-1. `npm install -g meteorite` (if not already installed)
-2. `mrt add jqGrid`
+meteor add ramgopal:jqgrid
 
 ## Usage
 
