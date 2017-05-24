@@ -1,18 +1,13 @@
-# jqGrid for meteor
+# free-jqGrid for Meteor
 
-[jqGrid](http://www.trirand.com/) v4.6.0, is a complete Grid jQuery Plugin for tables.
+This Meteor package is made from [free-jqGrid](https://github.com/free-jqgrid/jqGrid),  a complete Grid jQuery Plugin for tables. Is it the free version of [jqGrid](https://github.com/tonytomov/jqGrid).
 
-[soncco/meteor-jqGrid](https://github.com/soncco/meteor-jqGrid) is a spanish version of jqGrid for meteor.
-[lspellman/meteor-jqGrid](https://github.com/lspellman/meteor-jqGrid) is an english version of [soncco/meteor-jqGrid](https://github.com/soncco/meteor-jqGrid).
-lspellman/meteor-jqGrid package is not available on atmosphere.  I have just published it on atmosphere without making any changes.
-
+For the moment, only english locale is enabled.
 
 ## Install
-
-meteor add ramgopal:jqgrid
+Use this command `meteor add aurelienc:free-jqgrid` into your project folder or add this package `aurelienc:free-jqgrid` into the `.meteor\packages` file.
 
 ## Usage
-
   You should use `datatype: 'local'` for fetch data.
 
   If you have a [Collection](http://docs.meteor.com/#collections) called `Clients` width `first`, `last` and `email` properties.
@@ -79,13 +74,5 @@ meteor add ramgopal:jqgrid
   };
   ```
 
-## Configuration and Demo
-
-You can play within rendered event and configure jqGrid, check the [jqGrid Demos](http://trirand.com/blog/jqgrid/jqgrid.html) for more configurations and Examples.
-
-
-## Todo
-
-  1. Configuration for extra plugins.
-  1. Configuration for language.
-  1. Examples.
+## Configuration
+You can play within rendered event and configure jqGrid, check the [free-jqGrid documentation](https://free-jqgrid.github.io/).

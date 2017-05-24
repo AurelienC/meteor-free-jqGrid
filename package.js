@@ -1,8 +1,8 @@
 Package.describe({
-  summary: "jQuery Grid Plugin - jqGrid",
-  name: "ramgopal:jqgrid",
-  version: "0.1.5",
-  git: "https://github.com/ramgo2/meteor-jqGrid.git",
+  summary: "jQuery Grid Plugin - free-jqGrid",
+  name: "aurelienc:free-jqgrid",
+  version: "4.14.0",
+  git: "https://github.com/AurelienC/meteor-free-jqGrid.git",
   documentation: 'README.md'
 });
 
@@ -14,6 +14,6 @@ Package.on_use(function (api) {
   var asset_path = path.join('lib');
   api.add_files(path.join(asset_path, 'css', 'ui.jqgrid.css'), 'client');
   api.add_files(path.join(asset_path, 'js', 'i18n/grid.locale-en.js'), 'client');
-  api.add_files(path.join(asset_path, 'js', 'jquery.jqGrid.min.js'), 'client');
+  api.add_files(path.join(asset_path, 'js', 'jquery.jqgrid.min.js'), 'client');
 
 });
