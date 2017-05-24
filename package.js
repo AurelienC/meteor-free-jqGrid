@@ -12,6 +12,7 @@ Package.on_use(function (api) {
 
   var path = Npm.require('path');
   var asset_path = path.join('lib');
+  api.add_files(path.join(asset_path, 'css', 'jquery-ui.min.css'), 'client');
   api.add_files(path.join(asset_path, 'css', 'ui.jqgrid.css'), 'client');
   api.add_files(path.join(asset_path, 'js', 'i18n/grid.locale-en.js'), 'client');
   api.add_files(path.join(asset_path, 'js', 'jquery.jqgrid.min.js'), 'client');
