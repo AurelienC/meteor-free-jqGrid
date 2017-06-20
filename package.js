@@ -1,7 +1,7 @@
 Package.describe({
   summary: "jQuery Grid Plugin - free-jqGrid",
   name: "aurelienc:free-jqgrid",
-  version: "4.14.0",
+  version: "4.14.1",
   git: "https://github.com/AurelienC/meteor-free-jqGrid.git",
   documentation: 'README.md'
 });
